@@ -1,0 +1,335 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.Desc {
+  padding: 30px;
+}
+
+span {
+  font-size: 0.8em;
+  /* border: solid 1px lightgray; */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navItem {
+  background-color: rgb(224, 146, 1);
+  /* display: flex; */
+  height: 250px;
+  text-align: center;
+}
+
+.Logo {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 150px;
+  left: 80px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.NavLogin:link {
+  text-decoration: none;
+}
+.NavLogin:visited {
+  color: white;
+}
+
+.navCart {
+  color: white;
+  position: absolute;
+  margin-top: 170px;
+  right: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.faShoppingCart {
+  color: white;
+}
+
+.NavBox {
+  display: flex;
+  margin-left: 30%;
+}
+
+.NavBoxx {
+  background-color:rgb(224, 146, 1);
+  height: 350px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.footer-content h5{
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+/* .footer .footer-content .footer-info .disclaimer{
+  margin-left: 32%;
+  color: white;
+  text-align: center;
+} */
+
+.Nav {
+  color: rgb(224, 146, 1);
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.Nav:link {
+  text-decoration: none;
+}
+.Nav:visited {
+  color: rgb(224, 146, 1);
+}
+.Nav:hover {
+  color: white;
+  background-color: rgb(224, 146, 1);
+  padding: 10px;
+}
+
+.quantity {
+  display: inline;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.CartItems {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.CartItem {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.CartImage {
+  margin-left: 100px;
+}
+
+a:hover {
+  color: white;
+}
+
+.CheckOut {
+  width: 150px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.ListGroup {
+  margin: 50px 100px;
+}
+
+.Lite {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Contiue {
+  margin-left: 100px;
+}
+
+.slide {
+  width: 1000px;
+  align-items: center;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.bigTitle h2{
+  color: rgb(224, 146, 1);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutDes {
+  width: 800px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.aboutImg {
+  width: 600px;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.productCard {
+  width: 700px;
+  border: none;
+}
+
+.CardProduct {
+  align-items: center;
+  margin-left: 350px;
+  border: none;
+}
+
+.Card {
+  border: none;
+}
+
+.productButton:link {
+  text-decoration: none;
+}
+.productButton:visited {
+  color: white;
+}
+.productButton:hover {
+  color: white;
+  /* background-color: rgb(0,0,0); */
+  padding: 10px;
+}
+
+.price {
+  border: none;
+  color: gray;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sort {
+  /* position: absolute;
+  margin-left: 500px; */
+  display: flex;
+  margin: auto;
+}
+
+.contactImg {
+  height: 150px;
+  display: flex;
+  margin: auto;
+}
+
+.contactForm {
+  display: flex;
+  margin: auto;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+form input {
+  width: 400px;
+}
+form textarea {
+  width: 400px;
+  height: 300px;
+}
+form button {
+  display: flex;
+  float: right;
+}
+
+/*# sourceMappingURL=App.css.map */
+.form-control{
+  width: 400px;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #000000;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.Facebook{
+  display: flex;
+  margin-left: 60px;
+}
+
+.register{
+  display: flex;
+  margin-right: 150px;
+}
+
+.login{
+  display: flex;
+  margin-right: 160px;
+}
+
+.bcHome {
+  margin-left: 150px;
+}
+
+.bcHome a{
+  display: flex;
+  color: white;
+}
+
+.bcHome:link{
+  text-decoration: none;
+}
+
+.bcHome:hover {
+  color: white;
+  background-color: black;
+}
+
+/* productpage.css */
+.productAll h1 {
+  text-align: center;
+  margin-top: 50px;
+  color:rgb(224, 146, 1);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.productDesc {
+  text-align: center;
+  margin-top: 10px;
+  color:rgb(224, 146, 1);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.productPrice {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.productContainer {
+  margin-top: 30px;
+}
+
+.img-card {
+  border: 3px solid rgba(224, 146, 1, 0.556);
+  margin: 10px;
+  width: 300px;
+}
+
+.img-card:hover {
+  border: 3px solid rgb(224, 146, 1);
+}
