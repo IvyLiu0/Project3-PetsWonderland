@@ -67,7 +67,7 @@ export const NavBar = (props) => {
             <Route path="/" element={<Main />} />
             <Route path="/allproducts" element={<AllProduct />} />
             <Route
-              path="/bowls"
+              path="/cartItem"
               element={
                 <HomeAll
                   allList={props.allList}

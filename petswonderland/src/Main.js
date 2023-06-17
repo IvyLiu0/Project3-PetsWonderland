@@ -45,24 +45,24 @@ function ShowProducts() {
       <br />
       <br />
       <Columns columns="4">
-        <Link to="/products" className="linkproduct">
+        <Link to="/allproducts" className="linkproduct">
           <img
             style={{ width: "300px", marginLeft: "30px" }}
             src="/products/bowl3.jpg"
             alt="a"
           />
         </Link>
-        <Link to="/products" className="linkproduct">
+        <Link to="/allproducts" className="linkproduct">
           <img
             style={{ width: "300px" }}
             src="/products/clothes3.jpg"
             alt="b"
           />{" "}
         </Link>
-        <Link to="/products" className="linkproduct">
+        <Link to="/allproducts" className="linkproduct">
           <img style={{ width: "300px" }} src="/products/leash2.jpg" alt="c" />
         </Link>
-        <Link to="/products" className="linkproduct">
+        <Link to="/allproducts" className="linkproduct">
           <img style={{ width: "300px" }} src="/products/toy3.jpg" alt="d" />
         </Link>
         <p

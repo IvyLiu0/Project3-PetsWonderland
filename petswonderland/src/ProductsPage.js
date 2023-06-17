@@ -19,17 +19,19 @@ function AllProduct() {
                   src={data.image}
                 />
                 <h5 className="productDesc">{data.desc}</h5>
-                <p className="productPrice">{data.price}</p>
+                <p className="productPrice">${data.price}</p>
               </div>
             </Col>
           ))}
         </Row>
       </Container>
-      <Button variant="dark">
-        <Link to="/bowls" className="productButton">
-          Products
-        </Link>
-      </Button>
+      <div className="productBtn">
+        <Button className="productButton">
+          <Link to="/cartItem" className="productBtnLink">
+            Products
+          </Link>
+        </Button>
+      </div>
     </div>
   );
 }

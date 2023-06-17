@@ -41,7 +41,7 @@ export const AllItems = (props) => {
           <img
             src={product.image}
             alt={product.desc}
-            height="200"
+            height="250"
             width="200"
             onClick={() => handleShow(product)}
           />
@@ -59,12 +59,14 @@ export const AllItems = (props) => {
         </ListGroupItem>
       ))}
 
-      <Button variant="dark">
-        {" "}
-        <Link to="/allproducts" className="productButton">
-          Back to All Products
-        </Link>
-      </Button>
+      <div className="productBtn">
+        <Button className="productButton">
+          {" "}
+          <Link to="/allproducts" className="productBtnLink">
+            Back to All Products
+          </Link>
+        </Button>
+      </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>
