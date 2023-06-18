@@ -42,7 +42,7 @@ function Login() {
                     {/* FB Login Button */}
                     <div className="Facebook">
                       <FacebookLogin
-                        appId="327218602070543"
+                        appId="3211388012416986"
                         autoLoad={false}
                         fields="name,email,picture"
                         scope="public_profile,user_friends"

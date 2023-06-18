@@ -25,8 +25,8 @@ export const Cart = (props) => {
                       className="CartImage"
                       src={itemlist.image}
                       alt={itemlist.desc}
-                      height="120"
-                      width="120"
+                      height="250"
+                      width="200"
                     />
                     <h5 className="CartItem">
                       {itemlist.desc}
@@ -41,7 +41,7 @@ export const Cart = (props) => {
           </ListGroup>
           <br />
           <Link to="/signin">
-            <Button className="btn CheckOut" variant="dark">
+            <Button className="btn CheckOut">
               Check Out
             </Button>
           </Link>
@@ -51,7 +51,7 @@ export const Cart = (props) => {
         <div>
           <h4 className="Contiue">There are 0 items in your cart.</h4>
           <Link to="/">
-            <button className="btn btn-success Contiue">Continue Shop</button>
+            <button className="btn Contiue1">Continue Shop</button>
           </Link>
         </div>
       )}

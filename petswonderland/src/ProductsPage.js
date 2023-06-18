@@ -28,7 +28,7 @@ function AllProduct() {
       <div className="productBtn">
         <Button className="productButton">
           <Link to="/cartItem" className="productBtnLink">
-            Products
+            Buy Products
           </Link>
         </Button>
       </div>

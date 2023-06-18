@@ -67,10 +67,10 @@ function Login() {
           )}
         </form>
       ) : (
-        <div style={{ fontSize: "40px", color: "green" }}>
+        <div style={{ fontSize: "25px", color: "green" }}>
           You have logged in successfully!
           <br />
-          <button type="submit" className="btn btn-dark btn-lg bcHome">
+          <button type="submit" className="btn btn-dark btn-m bcHome">
             <a href="./">Home</a>
           </button>
         </div>

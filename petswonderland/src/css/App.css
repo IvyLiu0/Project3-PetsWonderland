@@ -112,6 +112,7 @@ span {
 
 .CartImage {
   margin-left: 100px;
+  margin-top: 20px;
 }
 
 a:hover {
@@ -123,6 +124,7 @@ a:hover {
   margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 100px;
+  background-color: rgb(224, 146, 1);
 }
 
 .ListGroup {
@@ -136,6 +138,13 @@ a:hover {
 
 .Contiue {
   margin-left: 100px;
+}
+
+.Contiue1 {
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: rgb(224, 146, 1);
+  color: #fff;
 }
 
 .slide {
@@ -271,20 +280,19 @@ form button {
 
 .bcHome {
   margin-left: 150px;
+   margin-top: 20px;
+  background-color:#000000 ; 
 }
 
 .bcHome a{
   display: flex;
   color: white;
-}
-
-.bcHome:link{
   text-decoration: none;
 }
 
 .bcHome:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(224, 146, 1);
 }
 
 /* productpage.css */
