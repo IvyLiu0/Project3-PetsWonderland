@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col, Row, Image, Button } from "react-bootstrap";
 import { Alldata } from "./data/alldata";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import { Link } from "react-router-dom";
 
 function AllProduct() {

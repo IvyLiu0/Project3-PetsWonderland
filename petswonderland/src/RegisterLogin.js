@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FacebookLogin from "react-facebook-login";
 import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import Registration from "./Registration";

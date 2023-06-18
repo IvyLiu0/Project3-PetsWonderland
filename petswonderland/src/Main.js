@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 import Columns from "react-columns";

@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import { AllItems } from "./products/displayAllProducts";
 
 export const HomeAll = (props) => {

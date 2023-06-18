@@ -1,5 +1,5 @@
 import { ListGroup, ListGroupItem } from "reactstrap";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -41,16 +41,14 @@ export const Cart = (props) => {
           </ListGroup>
           <br />
           <Link to="/signin">
-            <Button className="btn CheckOut">
-              Check Out
-            </Button>
+            <Button className="btn CheckOut">Check Out</Button>
           </Link>
         </div>
       )}
       {totalvalue === 0 && (
         <div>
           <h4 className="Contiue">There are 0 items in your cart.</h4>
-          <Link to="/">
+          <Link to="/cartItem">
             <button className="btn Contiue1">Continue Shop</button>
           </Link>
         </div>

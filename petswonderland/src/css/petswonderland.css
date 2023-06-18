@@ -1,0 +1,351 @@
+/* .footer .footer-content .footer-info .disclaimer{
+  margin-left: 32%;
+  color: white;
+  text-align: center;
+} */
+/*# sourceMappingURL=App.css.map */
+/* productpage.css */
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.Desc {
+  padding: 30px;
+}
+
+span {
+  font-size: 0.8em;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navItem {
+  background-color: #e09201;
+  height: 250px;
+  text-align: center;
+}
+
+.Logo {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 150px;
+  left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.NavLogin:link {
+  text-decoration: none;
+}
+.NavLogin:visited {
+  color: white;
+}
+
+.navCart {
+  color: white;
+  position: absolute;
+  margin-top: 170px;
+  right: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.faShoppingCart {
+  color: white;
+}
+
+.NavBox {
+  display: flex;
+  margin-left: 30%;
+}
+
+.NavBoxx {
+  background-color: #e09201;
+  height: 350px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.footer-content h5 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.Nav {
+  color: #e09201;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Nav:link {
+  text-decoration: none;
+}
+.Nav:visited {
+  color: #e09201;
+}
+.Nav:hover {
+  color: white;
+  background-color: #e09201;
+  padding: 10px;
+}
+
+.quantity {
+  display: inline;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.CartItems {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.CartItem {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.CartImage {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+.CheckOut {
+  width: 150px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: #e09201;
+}
+
+.ListGroup {
+  margin: 50px 100px;
+}
+
+.Lite {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Contiue {
+  margin-left: 100px;
+}
+
+.Contiue1 {
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #e09201;
+  color: #fff;
+}
+
+.slide {
+  width: 1000px;
+  align-items: center;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  width: 500px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.bigTitle h2 {
+  color: #e09201;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutDes {
+  width: 800px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.aboutImg {
+  width: 600px;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.productCard {
+  width: 700px;
+  border: none;
+}
+
+.CardProduct {
+  align-items: center;
+  margin-left: 350px;
+  border: none;
+}
+
+.Card {
+  border: none;
+}
+
+.price {
+  border: none;
+  color: #e09201;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sort {
+  display: flex;
+  margin: auto;
+}
+
+.contactImg {
+  height: 150px;
+  display: flex;
+  margin: auto;
+}
+
+.contactForm {
+  display: flex;
+  margin: auto;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+form input {
+  width: 400px;
+}
+form textarea {
+  width: 400px;
+  height: 300px;
+}
+form button {
+  display: flex;
+  float: right;
+}
+
+.form-control {
+  width: 400px;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #000000;
+  margin: 0;
+}
+.forgot-password a {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #000000;
+  margin: 0;
+  color: #167bff;
+}
+
+.Facebook {
+  display: flex;
+  margin-left: 60px;
+}
+
+.register {
+  display: flex;
+  margin-right: 150px;
+}
+
+.login {
+  display: flex;
+  margin-right: 160px;
+}
+
+.bcHome {
+  margin-left: 150px;
+  margin-top: 20px;
+  background-color: #000000;
+}
+.bcHome a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+.bcHome:hover {
+  color: white;
+  background-color: #e09201;
+}
+
+.productAll h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #e09201;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.productDesc {
+  text-align: center;
+  margin-top: 10px;
+  color: #e09201;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.productPrice {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.productContainer {
+  margin-top: 30px;
+}
+
+.img-card {
+  border: 3px solid rgba(224, 146, 1, 0.556);
+  margin: 10px;
+  width: 300px;
+}
+.img-card:hover {
+  border: 3px solid #e09201;
+}
+
+.productBtn {
+  text-align: center;
+}
+
+.productButton {
+  background-color: #e09201;
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
+.productButton:visited {
+  color: white;
+}
+.productButton:hover {
+  background-color: rgba(224, 146, 1, 0.556);
+}
+
+.productBtnLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=petswonderland.css.map */

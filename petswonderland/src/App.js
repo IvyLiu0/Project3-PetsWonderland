@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/App.css";
+import "./css/petswonderland.css";
 import { Alldata } from "./data/alldata";
 import { NavBar } from "./Navbar";
 import { Footer } from "./Footer";
