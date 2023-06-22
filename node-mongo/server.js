@@ -2,10 +2,20 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const expressSession = require('express-session')({
+  secret:'secret',
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    secure: false,
+    maxAge: 60000
+  }
+});
 
 app.use(cors());
 app.use(bodyParser.json());
 require("./app/models/contact.model.js");
+app.use(expressSession);
 
 //configuring the database
 require("dotenv").config();
