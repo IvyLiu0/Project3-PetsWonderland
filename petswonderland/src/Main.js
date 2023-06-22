@@ -6,7 +6,7 @@ import { Slide } from "react-slideshow-image";
 import Columns from "react-columns";
 import { Link } from "react-router-dom";
 
-const slideImages = ["/products/bowl2.jpg", "/products/clothes2.jpg", "/products/leash2.jpg"];
+const slideImages = ["/products/home-1.jpg", "/products/home-2.jpg", "/products/home-3.jpg"];
 
 const Main = () => {
   return (
